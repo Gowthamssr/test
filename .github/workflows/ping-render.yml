@@ -9,5 +9,7 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Ping Render App
-        run: curl -s https://portfolio-backend-lsno.onrender.com
+      # - name: Ping Render App
+        # run: curl -s https://portfolio-backend-lsno.onrender.com
+      - name: Ping Render App (second url)
+        run: curl -s https://gowthamssr.tech
